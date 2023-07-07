@@ -17,7 +17,7 @@ function Main() {
       <Route path="/periodomes/" component={VistaMes} />
       <Route path="/mineriadatos/" component={VistaMineria} />
       <Route path="/contacto/" component={Contacto} />
-      {/* testing sending string prop and destructure in component */}
+      {/* testing sending string prop anucture in component */}
     </div>
   );
 }
