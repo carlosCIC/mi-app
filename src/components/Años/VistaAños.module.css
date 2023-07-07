@@ -1,0 +1,9 @@
+.setVizStyle{
+    position: relative;
+    width: "1000px";
+    height: "800px";
+}
+.viz{
+    width: "100%";
+    height: "100%";
+}

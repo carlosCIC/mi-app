@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Forum', cursive;
+  background: #f8fafc;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.active {
+ color: #0d94c5;
+ border-bottom: 3px solid  rgb(5, 90, 170);
+}
+.navBar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.navBar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.navBar li {
+  padding: 1rem;
+  margin: 0 1px;
+  /* background-color: #333; */
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.navBar ul li a:hover {
+  color: #0d94c5;
+  border-bottom: 3px solid rgb(5, 90, 170);
+}
+
+.App {
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  margin: 8px;
+  padding: 2px;
+}
+
+input {
+  margin: 3px;
+}
+
+@media only screen and (max-width: 915px) {
+  .navBar ul li {
+    font-size: 10px;
+  }
+  .navBar ul li:nth-child(3){
+    font-size: 8px;
+    padding-bottom: 0px;
+
+  }
+  .navBar ul li:nth-child(4){
+    font-size: 8px;
+    padding-bottom: 0px;
+
+
+  }
+  .navBar ul li a:hover {
+    color: #e69500;
+    border-bottom: none;
+  }
+}
+
+#githubLink {
+  transition: all 0.2s ease-in-out;
+}
+#githubLink:hover {
+  transform: scale(1.1);
+}

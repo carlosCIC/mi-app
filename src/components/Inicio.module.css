@@ -1,0 +1,40 @@
+.pulmon{
+    position: absolute;
+    width: 95%;
+    z-index: -5;
+    top: 10%;
+    left: 5px;
+    right: 5px;
+}
+.imageninicio{
+z-index: 0;
+}
+.contenedorinicio{
+    width: 100%;
+}
+.principal{
+    height: 500px;
+    font-family: 'Averia Libre', cursive;
+}
+.imageninicio img{
+    height: 500px;
+    position: absolute;
+    top:15%;
+    z-index: -3;
+}
+.utilidades{
+
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+.datosutilidades{
+    width: 55px;
+}
+@media (max-width: 480px) {
+    .imageninicio img{
+        top: 30%;
+        height: 35%;
+        right: 0.1px;
+    }
+}

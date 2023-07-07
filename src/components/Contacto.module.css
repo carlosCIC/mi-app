@@ -1,0 +1,23 @@
+.contenedor{
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    font-size: 12px;
+}
+.contenedortabla{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 13px;
+}
+.contenedortabla table{
+
+    margin: auto;
+
+}
+@media (max-width: 500px) {
+    .contenedortabla{
+        font-size: 8.5px;
+    }
+}
